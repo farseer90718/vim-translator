@@ -52,6 +52,4 @@ vmap <silent> <Plug>Translate        :call translator#translate(0)<CR>
 vmap <silent> <Plug>TranslateSpeak   :call translator#speak()<CR>
 vmap <silent> <Plug>TranslateReplace :call translator#translate_replace()<CR>
 
-call s:translate_replace()
-
 let g:loaded_translator = 1
